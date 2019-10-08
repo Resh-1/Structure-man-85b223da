@@ -8,3 +8,43 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
+
+red {
+  color: #f33;
+}
+
+.yellow-bg {
+  background: #ffa;
+}
+
+.fancy {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+}
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.note {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.editorial {
+    background: rgb(255, 0, 0, .25);
+    padding: 10px;
+}
+
+.editorial:before {
+    content: 'Editor: ';
+}
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
